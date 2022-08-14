@@ -1,134 +1,101 @@
+<html> 
+  <head>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/index.js"></script>
+  </head>
 
-<html lang="en">
-<head>
-<meta charset="UTF-8">
+  <body> 
+    <!--<div class="navbar">
+        <div class="navBubble">
+            <div class="navlink" href="#home">
+                <p class="navText">home</p>
+                <div class="navline"></div>
+            </div>
+            <div class="navlink" href="#film">
+                <p class="navText">films</p>
+                <div class="navline"></div>
+            </div>
+            <div class="navlink" href="#us">
+                <p class="navText">about us</p>
+                <div class="navline"></div>
+            </div>
+        </div>
+    </div>-->
 
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <div class="mainBody">
+        <!-- <div id="vrOutlineImg">
+            <img class="vrOutline" src="assets/vrHeadsetOutline.svg" alt="vr headset outline">
+        </div> -->
 
-<meta name="viewport" content="width = device-width, initial-scale = 1">
-<title>YOI - main page</title>
-<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-
-<style>
-.jumbotron{
-    background-color:#white;
-    color:#0B2161;
-
-
-.tab-content {
-    border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
-    padding: 10px;
-}
-.nav-tabs {
-    margin-bottom: 0;
-}
-
-</style>
-
-</head>
-<body>
-
-<div class="container">
-<div class="page-header">
-<center>
-  <h1>YOI
-   </h1>
-   <p></p>
-<h3>
-  <ul class="list-inline">
-    <li><a href="profileMany.html">Personal</a></li>
-    <li><a href="index.html">Main</a></li>
-    <li><a href="experience.html">Experiences</a></li>
-    <li><a href="map.html">Get Started</a></li>
-
-
-  </center>
-</h3>
-</div>
-
-<div class="jumbotron">
-  <center>
-<p><h4>Travel Far. Experience More. Do Good.</h4></p>
-</center>
-
-<p>
-
-</p>
-<center>
-<img src="image/ss.jpg" alt="HTML5 Icon" style="width:760px;height:400px;">
-
-<p></p>
-<p><h3>Experiences</h3></p>
-</center>
-
-<div class="container">
-<div class="row">
-  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-    <div class="thumbnail">
-      <div class="caption">
-        <h3>Kenya Camping</h3>
-        <center>
-        <img src="image/kenyass.jpg" alt="HTML5 Icon" style="width:200px;height:200px;">
-        </center>
-        <p></p>
-        <p>A night in the wild at the famous Mount Ololokwe, an early 5 AM wake up ...</p>
-        <p><a href="experience.html" class="btn btn-primary" role="button">View Trip</a></p>
-
-      </div>
-      </div>
-  </div>
-  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-    <div class="thumbnail">
-      <div class="caption">
-        <h3>Peru Expedition</h3>
-        <center>
-        <img src="image/peruReal.jpg" alt="HTML5 Icon" style="width:200px;height:200px;">
-        </center>
-        <p></p>
-        <p>15 people hiked up the Andes Mountain to Macchu Picchu where they walked …</p>
-        <p><a href="experience.html" class="btn btn-primary" role="button">View Trip</a></p>
-      </div>
+        <div class="mainBox firstBox" id="home">
+            <div class="titleBox">
+                <img class="logo" src="assets/logo.svg" alt="waves">
+                <h1 class="titleScreen">Discover</h1>
+                <h1 class="titleScreen">a World</h1>
+                <div class="changingLine">
+                    <h1 class="titleScreen">of</h1>
+                    <div id="changingWords">
+                        <h1 class="titleScreen XRBlue">Art</h1>
+                        <h1 class="titleScreen XRBlue">VR</h1>
+                    </div>
+                </div>
+            </div>
+            <img class="firstBackground" src="assets/image.jpg" alt="waves">
+        </div>
+        <div class="mainBox thirdBox" id="home">
+            <video class="video" controls>
+                <source src="assets/xrv1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="mainBox secondBox" id="us">
+            <h1 class="titleScreen secondaryTitle">XR<span class="XRBlue" style="margin-left: 20px">Team</span>:</h1>
+            <div class="teamGrid">
+                <div class="teamCard">
+                    <div class="teamPhoto">
+                        <img class="profileImage" src="assets/profiles/Audrey_Jiang.jpg" alt="waves">
+                    </div>
+                    <h2 class="teamText">Audrey Jiang </br> <span class="XRBlue">(President)</span></h2>
+                    <p class="teamText">Audrey is interested in the relationship between hands and eyes in the history of media. Currently doing colour vision research in Neuroscience department at McGill.</p>
+                </div>
+                <div class="teamCard">
+                    <div class="teamPhoto">
+                        <img class="profileImage" src="assets/profiles/Annabel_Fan.jpeg" alt="waves">
+                    </div>
+                    <h2 class="teamText">Annabel Fan </br> <span class="XRBlue">(VP Internal)</span></h2>
+                    <p class="teamText">Annabel is a researcher in visual neuroscience who is interested in immersive technologies and the intersection of science and art.</p>
+                </div>
+                <div class="teamCard">
+                    <div class="teamPhoto">
+                        <img class="profileImage" src="assets/profiles/Jeong Ung Song.jpg" alt="waves">
+                    </div>
+                    <h2 class="teamText">Jeong Ung Song </br> <span class="XRBlue">(VP Finance)</span></h2>
+                    <p class="teamText">Jeong Ung likes to describe himself as a theatre director who studies neuroscience for fun. Currently, his research focuses on finding a diagnosis tool for a rare visual disorder called visual snow. He constantly strives to learn and appreciates any opportunity to write in third person.</p>
+                </div>
+                <div class="teamCard">
+                    <div class="teamPhoto">
+                        <img class="profileImage" src="assets/profiles/Victorien_Garrigues.jpeg" alt="waves">
+                    </div>
+                    <h2 class="teamText">Victorien Garrigues </br> <span class="XRBlue">(VP Publicity)</span></h2>
+                    <p class="teamText">Victorien is a double major student in computer and political science. He spends way too much of his time trying to learn about new technologies and placing pixels in r/place</p>
+                </div>
+                <div class="teamCard">
+                    <div class="teamPhoto">
+                        <img class="profileImage" src="assets/profiles/Raffles_Zhu.jpeg" alt="waves">
+                    </div>
+                    <h2 class="teamText">Raffles Zhu </br> <span class="XRBlue">(VP External)</span></h2>
+                    <p class="teamText">Raffles Zhu is interested in the applications of XR technologies in healthcare. He is currently pursuing a master's in neuroscience and working on a neurodevelopmental disorder called amblyopia or lazy eye.</p>
+                </div>
+                <div class="teamCard">
+                    <div class="teamPhoto">
+                        <img class="profileImage" src="assets/profiles/ZIxin He.png" alt="waves">
+                    </div>
+                    <h2 class="teamText">Zixin He </br> <span class="XRBlue">(VP Events, Tech)</span></h2>
+                    <p class="teamText">Zixin is a mechanical engineering student who has a penchant for taking things apart. He plans to take apart future McGill XR events.</p>
+                </div>
+            </div>
+        </div>
+        <!-- img class="wallpaperImg" src="assets/wallpaper.jpg" alt="wallpaper" -->
     </div>
-  </div>
-  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-    <div class="thumbnail">
-      <div class="caption">
-        <h3>Nepal Trip</h3>
-        <center>
-        <img src="image/nepalReal.jpg" alt="HTML5 Icon" style="width:200px;height:200px;">
-        </center>
-        <p></p>
-        <p>A trip to the historical Madhyapur Thimi really let’s young travelers absorb ...</p>
-        <p><a href="experience.html" class="btn btn-primary" role="button">View Trip</a></p>
-      </div>
-    </div>
-  </div>
-  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-    <div class="thumbnail">
-      <div class="caption">
-        <h3>Myanmar Boating</h3>
-        <center>
-        <img src="image/myanmar.jpg" alt="HTML5 Icon" style="width:200px;height:200px;">
-        </center>
-        <p></p>
-        <p>The glittering Inle lake laid quiet as 8 YOI bucket listers took a boat trip from ...</p>
-        <p><a href="experience.html" class="btn btn-primary" role="button">View Trip</a></p>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-
-<div>
-  <center>
-  <p> <h3> About Us </h3> </p>
-
-<p>Travel isn’t about the destination, it is about the journey, the experiences and the connections. Here at YOI, we believe travel brings out the best in people through many small experiences that should be shared together. What begins as a trip, should end as an unforgettable memory shared with new friends. </p>
-</center>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-</body>
+  </body>
 </html>
