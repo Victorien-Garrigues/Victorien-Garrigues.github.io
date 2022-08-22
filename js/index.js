@@ -6,9 +6,18 @@ window.onload = function () {
     let showBox = false;
     let changingText = true;
 
+    let pixelChange = "-83px";
+    
+
     setInterval(function () {
+        if (window.innerWidth <= 1036) {
+            pixelChange = "-66px";
+        } else {
+            pixelChange = "-83px";
+        }
+
         if (changingText) {
-            document.getElementById("changingWords").style.marginTop = "-83px";
+            document.getElementById("changingWords").style.marginTop = pixelChange ;
         } else {
             document.getElementById("changingWords").style.marginTop = "0px";
         }
