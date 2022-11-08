@@ -1,0 +1,81 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e8e8e8;
+}
+.header {
+    display: flex;
+    padding-top: 50px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.bodyElement {
+    width: 1000px;
+    margin: auto;
+}
+.clearButton {
+    color: white;
+    font-weight: 400;
+    padding: 10px 0;
+    width: 100px;
+}
+.clearButton:hover {
+    cursor: pointer;
+    font-weight: 600;
+}
+.title {
+    color:#2c3e50;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Merriweather, serif;
+}
+.bigTitle {
+    color:#2c3e50;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: Merriweather, serif;
+}
+.chartBox {
+    border: solid 1px lightgray;
+    border-radius: 5px;
+    background: #eeeeee;
+    margin: 5px;
+  }
+
+@media only screen and (max-width: 1060px) {
+    .bodyElement {
+        width: 800px;
+    }
+}
+@media only screen and (max-width: 810px) {
+    .bodyElement {
+        width: 500px;
+    }
+    .bigTitle {
+        font-size: 40px;
+    }
+}
+@media only screen and (max-width: 510px) {
+    .bodyElement {
+        width: 350px;
+    }
+    .bigTitle {
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .bodyElement {
+        width: 300px;
+    }
+    .bigTitle {
+        font-size: 25px;
+    }
+}

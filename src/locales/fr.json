@@ -1,0 +1,14 @@
+{
+  "Federal": {
+    "CPC": "Conservateur",
+    "CPC-colour": "#6F94E6",
+    "LPC": "Libéral",
+    "LPC-colour": "#DA746E",
+    "BQ": "Bloc Québécois",
+    "BQ-colour": "#97CCF6",
+    "PPC": "Parti Populaire",
+    "PPC-colour": "#6C5E96",
+    "GPC": "Vert",
+    "GPC-colour": "#A3C865"
+  }
+}

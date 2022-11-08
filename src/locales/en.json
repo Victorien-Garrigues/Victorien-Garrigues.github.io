@@ -1,0 +1,26 @@
+{
+  "Federal": {
+    "CPC": "Conservative",
+    "CPC-colour": "#0F2D52",
+    "LPC": "Liberal",
+    "LPC-colour": "#D71921",
+    "NDP": "New Democrat",
+    "NDP-colour": "#F58220",
+    "BQ": "Bloc Québécois",
+    "BQ-colour": "#00A7EC",
+    "PPC": "People's Party",
+    "PPC-colour": "#442D7B",
+    "GPC": "Green",
+    "GPC-colour": "#3C9B35"
+  },
+  "Ontario": {
+    "OPC": "Progressive Conservative",
+    "OPC-colour": "temp",
+    "NDP": "New Democrat",
+    "NDP-colour": "temp",
+    "OLP": "Liberal",
+    "OLP-colour": "temp",
+    "OGP": "Green",
+    "OGP-colour": "temp"
+  }
+}
